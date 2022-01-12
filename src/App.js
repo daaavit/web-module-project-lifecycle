@@ -1,10 +1,20 @@
-import React from 'react';
+import React from "react";
+import Follower from "./components/Follower";
+import User from "./components/User";
+
 
 class App extends React.Component {
   render() {
-    return(<div>
-      Github Card
-    </div>);
+    return (
+      <div>
+        <div>
+          <User />
+        </div>
+        <div>
+          <Follower />
+        </div>
+      </div>
+    );
   }
 }
 

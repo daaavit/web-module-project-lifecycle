@@ -1,0 +1,33 @@
+
+
+.main_wrapper {
+   display: flex;
+   flex-direction: column;
+   margin: 20px;
+   padding: 20px;
+}
+
+.user_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+   
+}
+
+.image_name {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+.main_div{
+
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+  
+ 
+
+}
